@@ -1,0 +1,38 @@
+{
+    "name": "neocities-info",
+    "version": "0.1.0",
+    "description": "Retrieve neocities information for a site",
+    "main": "lib/index.js",
+    "dependencies": {
+        "async": "^1.4.2",
+        "jsonfile": "^2.0.0",
+        "minimist": "^1.1.0",
+        "neocities": "^0.0.3",
+        "prompt": "^0.2.14"
+    },
+    "devDependencies": {
+        "jslint": "^0.9.3"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "jslint ./lib/index.js",
+        "prepublish": "npm run lint"
+    },
+    "keywords": [
+        "neocities"
+    ],
+    "author": "gburnett",
+    "license": "MIT",
+    "preferGlobal": true,
+    "bin": {
+        "neocities-info": "lib/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/gburnett/neocities-info"
+    },
+    "bugs": {
+        "url": "https://github.com/gburnett/neocities-info/issues"
+    },
+    "homepage": "https://github.com/gburnett/neocities-info"
+}
