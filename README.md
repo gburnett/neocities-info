@@ -1,7 +1,7 @@
 neocities-info
 ==============
 
-Get information from a neocities site.
+Get information from a [neocities](http://neocities.org) site.
 
 Install
 -------
